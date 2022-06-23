@@ -18,7 +18,7 @@
 		status = "ok";
 		reg = <0x0c900000 0x90000>,
 		      <0x0c9b0000 0x1040>;
-		reg-names = "mdp_phys", "vbif_phys";
+		reg-names = "mdp_phys", "vbif_phys", "vbif_nrt_phys";
 		interrupts = <0 83 0>;
 		interrupt-controller;
 		#interrupt-cells = <1>;
