@@ -58,7 +58,7 @@ static void msm_custom_audio_effects(struct q6audio_effects *effects)
 		{ AUDPROC_MODULE_ID_BASS_BOOST, AUDPROC_PARAM_ID_BASS_BOOST_ENABLE,
 			BASS_BOOST_ENABLE_PARAM_SZ, &msm_effects->bass_boost.enable_flag, 1 },
 		{ AUDPROC_MODULE_ID_BASS_BOOST, AUDPROC_PARAM_ID_BASS_BOOST_STRENGTH,
-			BASS_BOOST_STRENGTH_PARAM_SZ, &msm_effects->bass_boost.strength, 750 },
+			BASS_BOOST_STRENGTH_PARAM_SZ, &msm_effects->bass_boost.strength, 600 },
 
 		/* Virtualizer */
 		{ AUDPROC_MODULE_ID_VIRTUALIZER, AUDPROC_PARAM_ID_VIRTUALIZER_ENABLE,
